@@ -1,10 +1,14 @@
 import React from 'react';
 import './style.css';
-
+import { Routes, Route } from 'react-router-dom';
+import { Home, Dashboard } from './pages/';
 export default function App() {
   return (
     <div>
-      <h1>Dating App</h1>
+      <Routes>
+        <Route path="/dashboard" element={<Dashboard />}></Route>
+        <Route path="/" exact element={<Home />}></Route>
+      </Routes>
     </div>
   );
 }

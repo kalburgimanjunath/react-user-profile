@@ -1,4 +1,10 @@
 import React from 'react';
+import { USERS } from '../data/users';
+import { Cards } from '../components/';
 export default function Home() {
-  return <div>Home</div>;
+  return (
+    <div>
+      <Cards users={USERS} title="Recently Added" />
+    </div>
+  );
 }

@@ -15,4 +15,12 @@ export const USERS = [
     phone: '378387388377',
     email: 'ravi@gmail.com',
   },
+  {
+    id: 3,
+    name: 'summa kalburgi',
+    address: '#189,Ravi nagar,hubli',
+    sex: 'male',
+    phone: '378387388377',
+    email: 'ravi@gmail.com',
+  },
 ];
